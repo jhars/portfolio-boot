@@ -806,7 +806,8 @@ body {
 }
 
 .popup_content {
-    max-width: 500px;
+    max-width: 600px;
+    max-height: 80%;
     border: 5px solid #07397F;
     background: #fff;
 }
