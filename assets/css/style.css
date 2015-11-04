@@ -487,6 +487,10 @@ body {
     padding: 0;
     overflow: hidden;
     right: 0;
+    width:300px;
+}
+.image-container h1 {
+    font-size: 40px;
 }
 
 .main-heading {
@@ -805,8 +809,12 @@ body {
     display: none;
 }
 
+.popup-img {
+    height:50%;
+}
+
 .popup_content {
-    max-width: 600px;
+    max-width: 800px;
     max-height: 900px;
     border: 5px solid #07397F;
     background: #fff;
@@ -876,10 +884,10 @@ body {
     border-color: #fff;
     line-height: 58px;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-left: -29px;
-    margin-top: -29px;
+    /*top: 40%;*/
+    /*left: 50%;*/
+    /*margin-left: -29px;*/
+    /*margin-top: -29px;*/
 }
 .flip-container 
 {
@@ -900,7 +908,12 @@ body {
 
 .flip-container, .front, .back 
 {
-    height: 300px;
+    height: 380px;
+    width: 310px;
+    /*width:80%;*/
+    /*padding:15px;*/
+    /*margin:10%;*/
+    /*width:11%:*/
 }
 
 .flipper 
@@ -921,7 +934,7 @@ body {
 }
 .faq-desc-item
 {
-    margin: 15px 10px;
+    /*margin: 15px 10px;*/
 }
 .front, .back 
 {
@@ -939,13 +952,13 @@ body {
     z-index: 2;
     /*background-color: rgba(92, 145, 216, 0.27);*/
     background-color: #f4f4f4;
-    width: 100%;
+    /*width: 100%;*/
     /*border-color:#07397F;*/
     border: 3px solid #7C1200;
 }
 .front h5, .back p 
 {
-    margin-top: 20px;
+    margin-top: 5px;
 
 
 }
@@ -953,7 +966,7 @@ body {
 {
     line-height: 45px;
     font-weight: 400;
-    font-size:40px;
+    font-size:32px;
     text-align: center;
 
     /*position: absolute;*/
@@ -972,6 +985,7 @@ body {
     z-index: 9999;
     border: 3px solid #000000;
     color: #f4f4f4;
+    line-height: 20px;
     
     
 }
@@ -979,6 +993,7 @@ body {
 .back h5 {
     margin-top: 40px;
     color: #f4f4f4;
+
 }
 
 .back p 
@@ -986,7 +1001,7 @@ body {
     text-align: center;
     padding: 0 20px;
     font-family: 'Raleway', sans-serif;
-    line-height: 1.82em;
+    line-height: 1.5em;
     color: #f4f4f4;
 }
 
