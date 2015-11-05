@@ -810,18 +810,19 @@ body {
 }
 
 .popup-img {
-    height:50%;
+    height:20%;
 }
 
 .popup_content {
-    max-width: 800px;
-    max-height: 900px;
+    max-width: 900px;
+    max-height: 950px;
+    /*max-height: 900px;*/
     border: 5px solid #07397F;
     background: #fff;
 }
 
 .popup_content img {
-    display: block;
+    /*display: block;*/
     width: 100%;
     background: #fff;
     margin: 0 auto;
@@ -829,6 +830,7 @@ body {
 
 .popup_content .popup-content {
     padding: 15px;
+    /*margin: auto;*/
 
 }
 
@@ -836,15 +838,23 @@ body {
     text-align: center;
 }
 
-.popup_content a {
+.popup-content a {
     border: 1px solid #07397F;
     color: #07397F;
-    display: block;
-    width: 150px;
-    margin: 30px auto;
-    padding: 10px 25px;
+    /*display: inline;*/
+    margin: auto;
+    /*padding-left: 100px;*/
+    margin-left: 240px;
+    /*width: 100px;*/
+    /*margin: 30px auto;*/
+    /*padding: 10px 25px;*/
     text-decoration: none;
     text-align: center;
+/*-------CUSTOM CENTERING-------*/
+    /*margin: auto;*/
+    width: 60%;
+    /*border:3px solid #8AC007;*/
+    padding: 10px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -908,8 +918,8 @@ body {
 
 .flip-container, .front, .back 
 {
-    height: 380px;
-    width: 310px;
+    height: 400px;
+    width: 300px;
     /*width:80%;*/
     /*padding:15px;*/
     /*margin:10%;*/
@@ -955,6 +965,7 @@ body {
     /*width: 100%;*/
     /*border-color:#07397F;*/
     border: 3px solid #7C1200;
+    width:100%;
 }
 .front h5, .back p 
 {
