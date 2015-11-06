@@ -21,7 +21,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body onload="initControl()">
 <!-- Preloader -->
     <div id="preloader">
         <div class="loader">
@@ -102,6 +102,7 @@
 <!-- =============== INTERACTIVE STUDIO ================== --><!-- =============== INTERACTIVE STUDIO ================== -->
 <!-- =============== INTERACTIVE STUDIO ================== --><!-- =============== INTERACTIVE STUDIO ================== -->
 <!-- =============== INTERACTIVE STUDIO ================== --><!-- =============== INTERACTIVE STUDIO ================== -->
+
 <!-- 5 ) Profile Page -->
     <div class="profile-page container-fluid page">
         <div class="row">
@@ -118,28 +119,13 @@
             <div class="content-container col-md-9 col-sm-12">                
 <!--( A ) Story of Glory -->                
                 <div class="clearfix">
-                    <h2 class="small-heading">LEARN ABOUT US</h2>
+                    <h2 class="small-heading">Interactive Gallery</h2>
                     <div class="row">
-                        <div class="col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <div class="video embed-responsive embed-responsive-4by3">
-                                        <iframe class="embed-responsive-item" src="http://www.jonharlan.com" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <div class="about-us-desc">
-                                        <p>
-                                            Quisque in tempor sapien, et cursus neque. Nunc pulvinar diam ac dapibus mollis. Etiam id iaculis lorem. Donec bibendum volutpat ante, eu consequat nisi suscipit at. Etiam interdum augue dolor
-                                        </p>
-                                        <p>
-                                            Faliquam hendrerit a augue in suscipit. Pellen tesque id erat quis sapien a dignissim sollicitu din. Nulla B-4 mattis tortor sit amet lorem dolor  amer sollicitudin aliquam dignissim so much.
-                                            Ut cursus massa at urnaac assin got pressed hadrtits lis estie. Sed aliquamellus tae ultrices condimentum, the Bootstrap 4 leo massa mollis estiegittis miristum nu endrerit a augue in su cipit.Pe lla eo massa mlli joss mama.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div id="canvasDiv">
+                            
+                            <canvas id="clickCanvas" height="82" width="109">test here</canvas>
+
+                        <!-- </div> -->
                     </div>
                 </div>
 <!--( B ) What Can I Do -->
@@ -148,76 +134,60 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                             <div class="row">
-                            <!--     <div class="services col-md-4  col-xs-12">
-                                    <div class="facts"> -->
+                                <div class="services col-md-4  col-xs-12">
+                                    <div class="facts">
                                         <!-- <div class="facts-overlay"> -->
                                         <div class="video embed-responsive embed-responsive-4by3">
                                             <iframe class="embed-responsive-item" src="http://lax360.bitballoon.com/" allowfullscreen></iframe>
                                         </div>                                            
-                               <!--      </div>
-                                </div> -->
-<!-- Single Service Item [ END ]  -->
-                           <!--      <div class="services col-md-4  col-xs-12">
-                                    <div class="facts"> -->
-                                        <!-- <div class="facts-overlay"> -->
-                                        <a href="http://www.jonharlan.com"><h2 class="small-heading">Video You Can Touch</h2></a>
-                                        <div class="video embed-responsive embed-responsive-4by3">
-                                           <!--  <i class="fa fa-coffee fa-3x"></i>
-                                            <p class="count">1473</p>
-                                            <p class="text-capitalize">cups of coffee</p> -->
-                                            <iframe class="embed-responsive-item" src="http://www.jonharlan.com" allowfullscreen></iframe>
-                                        </div>
-                               <!--              
                                     </div>
-                                </div>    -->                             
-<!-- Single Service Item [ END ]  -->
-                               <!--  <div class="services col-md-4  col-xs-12">
-                                    <div class="facts"> -->
-                                       <!--  <div class="facts-overlay">
-                                            <i class="fa fa-cubes fa-3x"></i>
-                                            <p class="count">500</p>
-                                            <p class="text-capitalize">projects delivered</p>
-                                        </div> -->
-                             <!--        </div>
-                                </div> -->
-<!-- Single Service Item [ END ]  -->
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="clearfix full-height">
-                    <h2 class="small-heading">MEET THE TEAM</h2>
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-                            <div class="row">
-                                <div class="col-md-4 col-xs-12">
-                                    <div class="team-member-box center-block text-center">
-                                        <img src="assets/img/team_member1.jpg" class="img-responsive">
-                                        <h4 class="text-capitalize">loras tyrel</h4>
-                                        <p class="text-uppercase">founder and ceo</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-xs-12">
-                                    <div class="team-member-box center-block text-center">
-                                        <img src="assets/img/team_member2.jpg" class="img-responsive">
-                                        <h4 class="text-capitalize">john snow</h4>
-                                        <p class="text-uppercase">head of attorney</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-xs-12">
-                                    <div class="team-member-box center-block text-center">
-                                        <img src="assets/img/team_member3.jpg" class="img-responsive">
-                                        <h4 class="text-capitalize">sansa stark</h4>
-                                        <p class="text-uppercase">creative coder</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- -END- MEET TEAM -->
+<!-- TEST AREA -->
+                <hr class="featurette-divider">
+
+                <!-- First Featurette -->
+                <div class="featurette" id="about">
+                    <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+                    <h2 class="featurette-heading">This First Heading
+                        <span class="text-muted">Will Catch Your Eye</span>
+                    </h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- Second Featurette -->
+                <div class="featurette" id="services">
+                    <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+                    <h2 class="featurette-heading">The Second Heading
+                        <span class="text-muted">Is Pretty Cool Too.</span>
+                    </h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- Third Featurette -->
+                <div class="featurette" id="contact">
+                    <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+                    <h2 class="featurette-heading">The Third Heading
+                        <span class="text-muted">Will Seal the Deal.</span>
+                    </h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+
+                <hr class="featurette-divider">
+                
             </div>
         </div>
     </div>
+
+
 <!-- =============== -END- INTERACTIVE STUDIO ===================== -->
     
 
@@ -795,6 +765,7 @@
 <!-- ============= END CONTACT PAGE ============== -->
          
 <!-- CUSTOM JavaScript -->
+    <script type="text/javascript" src="assets/js/360control.js"></script>
     <script src="//masonry.desandro.com/masonry.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>
 <!-- 9 ) Javascript -->
@@ -808,6 +779,8 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript" src="assets/js/contact.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
+<!-- CUSTOM JavaScript -->
+    
 
 </body>
 </html>

@@ -471,7 +471,23 @@ body {
 }
 
 
-.profile-page,
+.profile-page {
+    
+}
+#canvasDiv {
+    background-image: url("../img/360logo.png");
+    background-repeat: no-repeat;
+    /*background-size: 50%;*/
+
+}
+
+#clickCanvas {
+    width:40%;
+    /*size:300%;*/
+    /*width:400px;*/
+    margin: auto;
+    /*margin-right: 100px;*/
+}
 
 .portfolio-page,
 .contact-page {
@@ -616,8 +632,8 @@ body {
 }*/
 
 iframe {
-    width:700px;
-    height:350px;
+    /*width:200px;*/
+    /*height:350px;*/
 }
 
 .about-us-desc p:first-child {
