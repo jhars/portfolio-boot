@@ -187,7 +187,7 @@ h2 {
 
 
 h2.small-heading {
-    padding: 60px 0 10px 0;
+    /*padding: 60px 0 10px 0;*/
     font-size: 2.25em;
     margin-bottom: 60px;
     position: relative;
@@ -470,24 +470,58 @@ body {
     min-height: calc(100vh - 68px);
 }
 
-
-.profile-page {
+#bayView {
+    margin-top:50px;
     
 }
-#canvasDiv {
-    background-image: url("../img/360logo.png");
-    background-repeat: no-repeat;
-    /*background-size: 50%;*/
+#touch-video {
+    /*margin-left: 10px;*/
+    padding:20px;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
 
+}
+/*#about {
+    margin-top: -200px;
+}*/
+
+.featurette {
+    margin-left:50px;
+}
+#logo360 {
+    /*size:50%;*/
+    height:300px;
+    width:400px;
+    margin-left:700px;
+    /*margin-top:300px;*/
+    margin-bottom: -360px;
+
+
+}
+#helmet360 {
+    margin-right:75px;
+    /*padding-right:100px;*/
+}
+
+#canvasDiv {
+    /*background-image: url("../assets/img/360logo.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 50%;*/
+    /*margin-top: -300px;*/
+    /*margin-top: 300px;*/
 }
 
 #clickCanvas {
-    width:40%;
+    width:45%;
     /*size:300%;*/
     /*width:400px;*/
-    margin: auto;
-    /*margin-right: 100px;*/
+    /*margin: auto;*/
+        /*margin-top: -200px;*/
+    margin-left: 100px;
 }
+
+
 
 .portfolio-page,
 .contact-page {
@@ -626,14 +660,16 @@ body {
     /*box-shadow: 2px 5px 9px #dfdfdf;*/
 }
 
-/*.video iframe {
+.video iframe {
     width: 200px; 
     height: 200px;
-}*/
+    /*margin-top: 200px;*/
+}
 
 iframe {
-    /*width:200px;*/
-    /*height:350px;*/
+    width:500px;
+    height:400px;
+
 }
 
 .about-us-desc p:first-child {
@@ -1153,10 +1189,10 @@ iframe {
 
 .contact-info .data i {
     background: #C78443;
-    border-radius: 50%;
+    border-radius: 80%;
     border: 1px solid #C78443;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 40px;
     height: 60px;
     line-height: 60px;
     margin-right: 20px;
@@ -1166,6 +1202,7 @@ iframe {
 
 .contact-info .data span {
     padding-top: 18px;
+    font-size:50px;
 }
 
 .contact-info .data:first-child span {
@@ -1248,8 +1285,9 @@ input#cfsubmit:hover {
 }
 
 #map-canvas {
-    width: 100%;
+    /*width: 100%;*/
     height: 250px;
+    /*margin-top: -100px;*/
 }
 
 

@@ -116,73 +116,80 @@
                 </div>
             </div>
 <!--( b ) Profile Page Content -->
-            <div class="content-container col-md-9 col-sm-12">                
+            <div class="container col-md-9 col-sm-12">                
 <!--( A ) Story of Glory -->                
-                <div class="clearfix">
-                    <h2 class="small-heading">Interactive Gallery</h2>
-                    <div class="row">
-                        <div id="canvasDiv">
-                            
-                            <canvas id="clickCanvas" height="82" width="109">test here</canvas>
-
-                        <!-- </div> -->
+                <!-- <div class="clearfix"> -->
+                    
+                    <div id="bayView" class="row">
+                        <!-- <img id="logo360"class="featurette-image img-circle img-responsive" src="assets/img/360logo.png"> -->
+                        <!-- <img id="logo360" src="assets/img/360logo.png"> -->
                     </div>
-                </div>
-<!--( B ) What Can I Do -->
-                <div class="clearfix">
-                    <a href="http://lax360.bitballoon.com/"><h2 class="small-heading">Helmet Customizer</h2></a>
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-                            <div class="row">
-                                <div class="services col-md-4  col-xs-12">
-                                    <div class="facts">
-                                        <!-- <div class="facts-overlay"> -->
-                                        <div class="video embed-responsive embed-responsive-4by3">
-                                            <iframe class="embed-responsive-item" src="http://lax360.bitballoon.com/" allowfullscreen></iframe>
-                                        </div>                                            
-                                    </div>
-                                </div>
+                    <h2 class="pull-left" id="touch-video">VIDEO YOU CAN TOUCH</h2>
+                    <hr><br><br><br><br><br><br><br>
+                <!-- </div> -->
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
 <!-- TEST AREA -->
                 <hr class="featurette-divider">
 
-                <!-- First Featurette -->
-                <div class="featurette" id="about">
-                    <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-                    <h2 class="featurette-heading">This First Heading
-                        <span class="text-muted">Will Catch Your Eye</span>
-                    </h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <!-- Second Featurette -->
-                <div class="featurette" id="services">
-                    <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-                    <h2 class="featurette-heading">The Second Heading
-                        <span class="text-muted">Is Pretty Cool Too.</span>
-                    </h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <!-- Third Featurette -->
-                <div class="featurette" id="contact">
-                    <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-                    <h2 class="featurette-heading">The Third Heading
-                        <span class="text-muted">Will Seal the Deal.</span>
-                    </h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-
-                <hr class="featurette-divider">
+                <div class="row">
                 
+                    <!-- First Featurette -->
+                    <div class="featurette" id="about">
+
+                        
+                        <img id="logo360" src="assets/img/360logo.png">
+                        
+                        <div id="canvasDiv">
+                            
+                            <canvas class="pull-right" id="clickCanvas" height="82" width="109">test here</canvas>
+                        </div>
+
+
+                        <h2 class="featurette-heading">Explore the Space Around You
+                            <span class="text-muted">Shot on my iPhone.</span>
+                        </h2>
+                        <p class="lead">
+                            I wanted to interact with real-world objects in a 3-dimmensional way a web page. Explored 3-5 different ways to solve the problem. I stretched the "canvas size" limits of HTML5 Canvas.
+                        </p>
+                        <p class="lead">
+                            1. Mouse/touch event listeners
+                            2. Sprint Generator JavaScript
+                            Technologies Used: HTML5 Canvas; SVG Graphics; JavaScript; PhotoShop; Sprint Animation PNGs; iPhone Burst Photos;
+                        </p>
+                   
+                    </div>
+                    
+                </div>
+
+                <hr><br><br><br><br><br><br><br>
+               
+                
+            
+                <hr class="featurette-divider">
+                <div class="row">
+                <!-- Second Featurette -->
+                    <div class="featurette" id="services">
+                        <!-- <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500"> -->
+                        <!-- <div class="video embed-responsive embed-responsive-4by3"> -->
+                           <iframe id="helmet360"class="embed-responsive-item pull-left" src="http://lax360.bitballoon.com/views/360" allowfullscreen></iframe>
+                        <!-- </div> -->
+                        <h2 class="featurette-heading">360 Helmet Customizer
+                            <span class="text-muted">Its Pretty Cool Too.</span>
+                        </h2>
+                        <p class="lead">Implemented HTML5 and Sprint Animations to re-create elements of factorycustom.com (helmet manufacturer). The first step was to dive as deep as I could into the DOM of factorycustom.com (explored their front-end code which is available to through Chrome Dev Tools). I was able to locate every single they used to build the site and, through this process, formed a detailed understanding of how customization platform was built. </p>
+                        <p class="lead">360-- learning how it work using XY-Axis-Grid coordinates (similar to GPS) to track your mouse movement
+                                        b) Mouse (click) Events on a laptop differ from Touch Events on mobile devces in the code (HTML5)
+                                        c) Using images to create custom UX/UI involves careful coordination of images, HTML, CSS and JavaScript
+                        </p>
+                        
+                    </div>
+                
+                </div>
+                <hr><br><br><br><br>
+
+                <hr class="featurette-divider">
+
+
             </div>
         </div>
     </div>
@@ -215,7 +222,7 @@
             <div class="content-container col-md-9 col-sm-12">
 <!--( A ) Portfolio -->
                 <div class="portfolio clearfix full-height">
-                    <h2 class="small-heading">PORTFOLIO</h2>
+                    <h2 id="touch-video">PORTFOLIO</h2>
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                             <div class="project-container">
@@ -560,7 +567,7 @@
             <div class="content-container col-md-9 col-sm-12">
 <!--( A ) Portfolio -->
                 <div class="clearfix">
-                    <h2 class="small-heading">WHAT I DO</h2>
+                    <h2 id="touch-video">WHAT I DO</h2>
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                             <div class="row">
@@ -585,6 +592,7 @@
                                         </div>
                                     </div>
                                 </div>
+
 
                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                     <div class="faq-desc-item">
@@ -634,7 +642,8 @@
                         </div>
                     </div>
                 </div>
-                <h2 class="small-heading" >TECHNICAL SKILLS</h2>
+                <br><hr><br>
+                <h2 id="touch-video" >TECHNICAL SKILLS</h2>
                 <div id="container" ></div>
 <!-- ============ TECH-SKILLS MASONRY PIX ============ -->
                     <div class="row">
@@ -694,14 +703,6 @@
                         </div>
                     </div>
 <!-- end: pricing section -->
-                <div class="clearfix full-height">
-                    <h2 class="small-heading">OUR VALUABLE CLIENTS</h2>
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-                        </div>
-                    </div>
-                </div>
-<!-- end: valuable clients -->
             </div> <!-- end content containt *JH -->
         </div>  
     </div>
@@ -726,22 +727,23 @@
             <div class="content-container col-md-9 col-sm-12">                
 <!--( A ) Contact Form -->
                 <div class="clearfix full-height">
-                    <h2 class="small-heading">COME IN TOUCH</h2>
+                    <h2 id="touch-video">CONTACT ME</h2>
                     <div class="row">
+
                         <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                             <div class="contact-info">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="data"><i class="fa fa-map-marker"></i><span>House -3, Road-2, Block - F, <br>Akhalia Ghat R/A, Sylhet. <br></span></div>
-                                        <div class="data"><i class="fa fa-envelope"></i><span>hello@boots4.com</span></div>
-                                        <div class="data"><i class="fa fa-phone"></i><span>+880 12345 - 67890</span></div>
+                                    <div class="col-md-12">
+                                        <div class="data"></div>
+                                         <div class="data"><i class="fa fa-envelope"></i><span>jjharlan06@gmail.com</span></div>
+                                        <div class="data"><i class="fa fa-phone"></i><span>(248) - 444 - 9837</span></div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <!-- <div class="col-md-6"> -->
                                         <div id="map-canvas"></div>
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
                             </div>
-                            <div class="row">
+                           <!--  <div class="row">
                                 <form  id="contactForm" class="contact-form" method="post" action="php/contact-form.php">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group"><input  name="name" type="text" class="form-control" id="name" required="required" placeholder="  Name"></div>
@@ -755,7 +757,7 @@
                                     <div class="col-md-4 col-xs-12"><input type="submit" id="cfsubmit" class="btn btn-send" value="Say Hello"></div>
                                     <div id="contactFormResponse" class="col-md-8 col-xs-12"></div>
                                 </form>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
