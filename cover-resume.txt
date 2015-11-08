@@ -1,0 +1,62 @@
+Flipboard
+Position – QA Automation Engineer- Mobile | Engineering | Palo Alto, CA
+
+Hi - I am a software-engineer and this is my portfolio website:
+www.jonharlan.com
+
+I develop web applications in a range of 6 modern programming languages: JavaScript, Swift, Ruby, Python, HTML5, CSS3. I am versed in in three “full-stacks”:
+
+1.	MEAN
+2.	Ruby on Rails
+3.	Swift 2.0
+
+I have a deep-level understanding of modern data-infrastructure, online-content editorial experience, and I am a clever problem solver. I also read Flipboard everyday. 
+
+Right around the time I started a 12-week Web-Development Immersive Program (www.Generalassemb.ly) this summer, was when I switched over from Zite to Flipboard as my news app. I was initially impressed with the smart-category-suggestions and believe that the interface-templates, which Flipboard is developing, are first-class designs for the mobile web.
+
+I am a great team member and feel that I could make an immediate contribution at Flipboard in this role. I am eager to apply a recently learned set of new development tools and develop as an engineer.
+
+Thank you for your consideration. 
+
+======================================================================
+
+Creative Web
+& Mobile Development
+Jon Harlan
+San Francisco, CA
+Full­-Stack Web & Mobile Developer
+
+Skills:
+
+Front­End Languages (skills): HTML5 (CANVAS), CSS/HTML, (PhotoShop)
+
+Mobile: Ionic (ngCordova), Swift 2.0
+Javascript Frameworks: jQuery, AJAX, Angular
+
+Backend Frameworks: Ruby on Rails, Node.JS
+
+CRUD & RESTful Routing, MEAN Stack Data: Worked with external APIs and creating internal APIs via Web­Scraping (w/ Node/Express), Kimono & JSON data-­parsing.
+
+Databases: Mongo DB, Postgres, SQL
+
+Experience & Education:
+­ General Assembly (2015) ­­ Web­Development Immersive Program
+­ 12­week intensive web development course which prepares students with a
+comprehensive & work-­ready skill to develop in multiple full-­stack frameworks.
+
+General Assembly Projects (Apps):
+1. LaxRank ­ Built API via web-­scraping which ranks over 4,000 lacrosse teams
+2. NeXu ­ Alumni Connction Engine: GPS, Facebook, Twillio SMS ­­ nexu.herokuapp.com
+3. 360.lax ­ 3D modeled a lacrosse helmet with HTML5 Canvas & Sprint Animation for real­-world object User­Interaction Engine.
+
+BroBible.com (New York, NY // 2010­2011) ­ Writer & Multimedia Contributor. Developed business strategies & managed annual events Forstone Capital Intern (New York, NY & Stamford, CT // 2008­2009) ­ Real Estate Investment & Brokerage
+
+Additional Education/Experience:
+ MasterCard Master's of Code Hackathon Finalist (2015) ­­ APIs Used: Twitter Digits, Simplify Commerce, Merchant Identifier (s implifylocal.herokuapp.com) 
+
+University of Delaware, B.S. Finance (Newark, DE // 2006­2010) 
+7v7 Lacrosse Tournament (Davis, CA // 2013­Current) ­ Founded the annual Yolo 7v7 Classic lacrosse tournament in December with 20+ youth & high-­school teams
+
+Lacrosse Events/Coaching/Sales (San Francisco, CA // 2012­2015) ­ Coached Youth, High School Varsity & College scholastic & travel programs
+
+­ Encore/MadLax: Focused on Team Sales & Event Management while gaining coaching experience with our camps and travel teams.

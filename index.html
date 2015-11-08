@@ -107,16 +107,18 @@
     <div class="profile-page container-fluid page">
         <div class="row">
             <!--( a ) Profile Page Fixed Image Portion -->
-            <div class="image-container col-md-3 col-sm-12">
-                <div class="mask">
-                </div>
-                <h1>Interactive Studio</h1>
-                <div class="main-heading">
-                    <h1 class="name">Jon Harlan</h1>    
-                </div>
+            
+            <div class="image-container col-md-3 col-xs-2 col-lg-3">
+
+                           <div class="mask">
+                           </div>
+                           <h1>Interactive Studio</h1>
+                           <div class="main-heading">
+                               <h1 class="name">Jon Harlan</h1>
+                           </div>
             </div>
 <!--( b ) Profile Page Content -->
-            <div class="container col-md-12 col-sm-9">                
+            <div class="container-fluid col-md-9 col-sm-12">                
 <!--( A ) Story of Glory -->                
                 <!-- <div class="clearfix"> -->
                     
@@ -125,6 +127,7 @@
                         <!-- <img id="logo360" src="assets/img/360logo.png"> -->
                     </div>
                     <h2 id="touch-video">VIDEO YOU CAN TOUCH</h2>
+                    <hr>
                     <br>
                 <!-- </div> -->
 
@@ -132,17 +135,15 @@
                 <hr class="featurette-divider">
 
                 <div class="row">
-                
                     <!-- First Featurette -->
                     <div class="featurette" id="about">
 
                         
-                        <img id="logo360" src="assets/img/360logo.png">
                         
                         <div id="canvasDiv">
+                        <img id="logo360" class="pull-right" src="assets/img/360logo.png">
                             <canvas class="pull-right" id="clickCanvas" height="82" width="109">test here</canvas>
                         </div>
-
 
                         <h2 class="featurette-heading">Explore the Space Around You.
                             <span class="text-muted">Shot on my iPhone. </span>
@@ -153,18 +154,19 @@
                             Click the the 360 logo for an interactive view of the San Francisco Bay.
                         </p>
 
-                        <h6>Built With:                            <span class="text-muted"></span>
+                        <h6>Built With:<span class="text-muted"></span>
                         </h6>
                         <p class="lead">
                             1. HTML5 Mouse/touch event listeners for X and Y coordinates
                         </p>
                         <p class="lead">
-                            2. Sprint Generator JavaScript
+                            
+                            iPhone Burst Photos;
                         </p>
-                        <p class="lead">
+                        <!-- <p class="lead">
                             3. Technologies Used: HTML5 Canvas; SVG Graphics; JavaScript; PhotoShop; Sprint Animation PNGs; iPhone Burst Photos;
                         </p>
-                   
+                    -->
                     </div>
                     
                 </div>
@@ -176,14 +178,21 @@
                 <hr class="featurette-divider"><br><br>
                 <div class="row">
                 <!-- Second Featurette -->
-                    <div class="featurette" id="services">
+                    <div class="featurette" id="about">
+                    <iframe id="helmet360"class="embed-responsive-item pull-left" src="http://lax360.bitballoon.com/views/360" allowfullscreen></iframe>
                      <h2 class="featurette-heading">360 Helmet Customizer
-                            <span class="text-muted">Its Pretty Cool Too.</span>
+                            <span class="text-muted">Click on the Color Squares!</span>
                         </h2>
-                        <br><br>
+                        <!-- <br><br> -->
+                         <p class="lead">
+                           Sprint Animation Generator in JavaScript.
+                           <br>
+                           Technologies Used:  SVG Graphics; JavaScript; PhotoShop; Sprint Animation PNGs; HTML5 Canvas;
+                        </p>
+                   
                         <!-- <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500"> -->
                         <!-- <div class="video embed-responsive embed-responsive-4by3"> -->
-                           <iframe id="helmet360"class="embed-responsive-item pull-left" src="http://lax360.bitballoon.com/views/360" allowfullscreen></iframe>
+                           
                         <!-- </div> -->
                        
                         
@@ -193,7 +202,23 @@
                 </div>
                 <hr><br><br><br><br>
 
-                <hr class="featurette-divider">
+                <!-- <hr class="featurette-divider"> -->
+
+
+
+
+                <!-- <hr class="featurette-divider"><br><br> -->
+                <div class="row">
+                <!-- Second Featurette -->
+                    <!-- <div class="featurette" id="customizer"> -->
+                    <iframe  id="customizer" class="embed-responsive-item" src="http://retailer-sue-42813.bitballoon.com/views/splash"></iframe>
+                        
+                    <!-- </div> -->
+                
+                </div>
+                <hr><br><br><br><br>
+
+                <!-- <hr class="featurette-divider"> -->
 
 
             </div>
@@ -296,7 +321,7 @@
                                         <div class="pop-up-box" id="portfolio-2">
                                             <img alt="" src="assets/img/portfolio-pieces/wide-360.png" class=" hidden-xs">
                                             <div class="popup-content">
-                                            <a href="http://www.jonharlan.com/">Preview</a><a href="https://github.com/jhars/360live">GitHub</a>
+                                            <a href="http://portfoliojh.bitballoon.com/">Preview</a><a href="https://github.com/jhars/360live">GitHub</a>
                                             <hr>
                                                <h3>360 Image Framework</h3>
                                                <p>
@@ -332,9 +357,9 @@
                                         </div>
 <!-- Popup Content => HELMET -->
                                         <div class="pop-up-box" id="portfolio-3">
-                                            <img alt="" src="assets/img/portfolio-pieces/wide-lax.png" class=" hidden-xs">
+                                            <img alt="" src="assets/img/customizer.png" class=" hidden-xs">
                                             <div class="popup-content">
-                                            <a href="http://lax360.bitballoon.com/index.html">Preview</a><a href="https://github.com/jhars/helmet360">GitHub</a>
+                                            <a href="http://retailer-sue-42813.bitballoon.com/views/splash">Preview</a><a href="https://github.com/jhars/helmet360">GitHub</a>
                                             <hr>
                                                <h3>Customizable Team Helmet Stickers</h3>
                                                <p>
@@ -575,7 +600,7 @@
 <!--( A ) Portfolio -->
                 <div class="clearfix">
                 <br>
-                    <h2 id="touch-video">WHAT I DO</h2><hr>
+                    <h2 id="touch-video">MY WORK</h2><hr>
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
                             <div class="row">
@@ -656,7 +681,9 @@
 <!-- ============ TECH-SKILLS MASONRY PIX ============ -->
                     <div class="row">
                         <div id="images">
-                             
+                             <div class="item">
+                                 <img src="assets/img/tech-skills/aws.png">
+                             </div>
                              <div class="item">
                                 <img src="assets/img/tech-skills/ionic.png">
                             </div>
@@ -708,6 +735,7 @@
                              <div class="item">
                                 <img src="assets/img/tech-skills/ruby.png">
                             </div>
+
                             <br><br><br>
                         </div>
                         <!-- <br><br><br> -->
