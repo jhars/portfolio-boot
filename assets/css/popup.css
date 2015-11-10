@@ -5,11 +5,11 @@
 -------------------------------*/
 
 .popup_back {
-	height: 100%;
+	height: 50%;
 	left: 0;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	/*max-width: 800px;*/
 	z-index: 1080;
 }
 
@@ -32,10 +32,15 @@
 	color: #343333;
 	cursor: pointer;
     background: #fff;
-	position: absolute;
-	padding: 0 5px;
-	right: 10px;
-	top: 10px;
+	position: fixed;
+	/*padding: 0 5px;*/
+	left: 10px;
+	top: 0px;
+	/*font-size:8px;*/
+	z-index: 1500;
+	/*margin-left: 325px;*/
+/*	padding-top: 150px;
+	padding-left: 150px;*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -52,6 +57,9 @@
 
 div.popup {
 	background: #fff;
+	/*margin:200px;*/
+	/*padding-left:300px;*/
+	margin:300px;
 }
 
 .preloader {
