@@ -2,24 +2,30 @@
 Contacts:
 Max Spitelnek
 cLancers
-Spencer
 
+
+--------------------------------------------------
+
+Big Ticket Items:
+
+Email Bing Gordon
+Sypht thru contact biz-cards
+Bryan Mecsey
+Thomas Martel
+Jason Raznick
+
+
+--------------------------------------------------
+-------------------------
 
 -------------------------
-Add Skills:
-AWS
+2.  *Symphony Commerce (qual.) —   Web Developer job at Symphony Commerce - AngelList
 
-Project Polish:
-Custom Stickers
--------------------------
+3.  Sutro — Digital Marketer + Growth Hacker job at Sutro - AngelList
 
-Portfolio Notes:
+4. Fleksy — Fleksy - Jobs: iOS engineer - Apply online (Fleksy Keyboard - GIFs, Custom Extensions, and Themes)
 
-
---Interactive Studio
-=> Working on Canvas Layout + 360 Logo in INTERACTIVE STUDIO
-
-
+5.  **houzz — Houzz Careers: Find a Job at Houzz
 
 
 
@@ -31,25 +37,6 @@ Portfolio Notes:
 --------------------------------------------------
 --------------------------------------------------
 --------------------------------------------------
-Customizable Team Helmet Stickers
-
-Description:
-
-I wanted to create a tool which allows users to customize design elements of real-world objects; giving the user enough freedom to create designs while limiting options/tools to create user-friendly interface.
-
-After exploring 3-5 different ways to accomplish my vision, I decided to use HTML5 and Sprint Animations to re-create elements of factorycustom.com (helmet manufacturer). The first step was to dive as deep as I could into the DOM of factorycustom.com (explored their front-end code which is available to through Chrome Dev Tools). I was able to locate every single they used to build the site and, through this process, formed a detailed understanding of how customization platform was built.
-
-Instead of setting up a green-screen and creating a precise photography process, I used images from factorycustom.com; which were perfectly formatted as well. The User-Interface displays available tools & colors in the top-left corner, a location which most internet-users are comfortable tinkering with(user-friendly location).
-
-Technologies Used: HTML5 Canvas; CSS; Javascript; 
-
-Responsibilities & Lessons Learned:
-
-a) 360-- learning how it work using XY-Axis-Grid coordinates (similar to GPS) to track your mouse movement
-d) Mouse (click) Events on a laptop differ from Touch Events on mobile devces in the code (HTML5)
-b) Using images to create custom UX/UI involves careful coordination of images, HTML, CSS and JavaScript
-
-
 
 
 

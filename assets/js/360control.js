@@ -34,6 +34,7 @@ function initControl() {
 	var DELTA; 
 
 	canvas.addEventListener("mousedown", doMouseDown, false);
+	canvas.addEventListener("touchstart", doMouseDown, false);
 
 	function doMouseDown (event) {
 		X[0] = event.pageX;
@@ -41,9 +42,20 @@ function initControl() {
 
 
 
+
+
+		
+	
+
+
+
+
 		// ictx.drawImage(shotIphone, 69, 58);
 		// ictx.drawImage(shotIphone, 400, 400, 400, 400);
 		// console.log("img DRAWN");
+
+			canvas.addEventListener("touchmove", mouseX, true);
+		canvas.addEventListener("touchend", mouseUp, false);
 
 		canvas.addEventListener("mousemove",mouseX, false);
 		document.body.addEventListener("mouseup", mouseUp, false);
@@ -53,6 +65,7 @@ function initControl() {
 
 	function mouseUp(event) {
 	  canvas.removeEventListener("mousemove",mouseX, false);
+	  canvas.addEventListener("touchmove", mouseX, true);
 
 	};
 
