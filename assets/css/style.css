@@ -487,13 +487,18 @@ body {
     text-align: center;
 }
 
-#i-active {
+.i-active {
     /*margin-left: 10px;*/
     /*padding:20px;*/
     font-size: 64px;
     /*text-decoration: underline;*/
     text-align: left;
 }
+/*#studio-format {
+    position:fixed;
+    margin-left:-125px;
+    text-align:left;
+}*/
 #about {
     margin-left: 50px;
 }
@@ -660,7 +665,8 @@ iframe {
 
 }
 #customizer {
-    width:900px;
+    /*width:900px;*/
+    width:120%;
     height: 1600px;
 }
 .about-us-desc p:first-child {
@@ -885,11 +891,16 @@ iframe {
     position: absolute;
     /*top: 40%;*/
     /*left: 50%;*/
-    /*margin-left: -29px;*/
+    
+    /*margin-left: 50px;
+    margin-right: 50px;*/
+    
     /*margin-top: -29px;*/
 }
 .flip-container 
 {
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
     -o-perspective: 1000;
@@ -907,11 +918,11 @@ iframe {
 
 .flip-container, .front, .back 
 {
-    height: 400px;
-    width: 300px;
-    /*width:80%;*/
+    height: 470px;
+    /*width: 30px;*/
+    width:110%;
     /*padding:15px;*/
-    /*margin:10%;*/
+    /*margin:50px;*/
     /*width:11%:*/
 }
 
