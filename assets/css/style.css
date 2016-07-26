@@ -657,17 +657,16 @@ body {
 }
 
 iframe {
-    /*width:1000px;*/
-    /*width:75%;*/
+    overflow-x:hidden;
+    overflow-y:hidden;
     height:221px;
     width:221px;
-    /*margin-left:-50px;*/
 
 }
 #customizer {
-    /*width:900px;*/
-    width:120%;
-    height: 1600px;
+    width:700px;
+    height: 700px;
+    margin-left: 50px;
 }
 .about-us-desc p:first-child {
     font-size: 17px;
@@ -1333,10 +1332,14 @@ input#cfsubmit:hover {
     padding-left: 10%;
 }
 
-/* ======= CSS CUSTOM OVERALAY ======*/
+/* ======= Tech-Skill Modals ======*/
 /*===================================*/
-.clearfix {
-    /*opacity: 0.5;*/
+.skill-modal-subheader {
+    text-decoration: underline;
+}
+
+#skill-modal {
+    text-align: left;
 }
 /*#cover{
     position:fixed;
